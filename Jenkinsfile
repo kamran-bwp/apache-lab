@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Define environment variables
         EC2_HOST = '51.20.219.202'
-        EC2_USER = 'ec2-user'
+        EC2_USER = 'ubuntu'
         // Assuming you've added your SSH private key to Jenkins' credentials store
         SSH_KEY_ID = 'apache-ssh'
     }
